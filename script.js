@@ -1,1 +1,156 @@
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+  background: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
+.nav-logo {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: #222;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: #f9f9f9;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 10px 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #222;
+  font-size: 14px;
+}
+
+.hero-btn:hover {
+  background: #eee;
+}
+
+section {
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.about-text {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+}
+
+.skill-card {
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.skill-icon {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.skill-card p {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 10px 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  background: #fff;
+  align-self: flex-start;
+}
+
+.contact-form button:hover {
+  background: #eee;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 13px;
+  color: #999;
+  border-top: 1px solid #eee;
+  margin-top: 2rem;
+}
